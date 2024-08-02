@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background: rgb(63, 65, 67);
+  color: #fff;
+}
+
+.active.a{
+  color: burlywood;
+}
