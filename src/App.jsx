@@ -3,18 +3,23 @@ import Navbar from './components/Navbar'
 import Home from './pages/Home'
 import Contact from './pages/Contact'
 import About from './pages/About'
+import Users from './pages/Users'
 
 import { Router, Routes, Route } from 'react-router-dom'
+import Routing from './utils/Routing'
+
 
 function App() {
   return (
     <div className='flex flex-col items-center'>
       <Navbar />
-      <Routes>
+      <Routing/>
+      {/* <Routes>
         <Route path="/" element={<Home/>} />
         <Route path='/about' element={<About/>} />
         <Route path='/contact' element={<Contact/>} />
-      </Routes>
+        <Route path='/users' element={<Users/>} />
+      </Routes> */}
     </div>
 
   )
